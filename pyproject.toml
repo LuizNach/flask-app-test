@@ -2,14 +2,16 @@
 name = "flask-app-test"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["LuizNach <luiz.nach@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 Flask = "^2.1.2"
+flask-pydantic-spec = "^0.3.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+httpie = "^3.2.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
